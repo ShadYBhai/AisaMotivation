@@ -1,8 +1,6 @@
 import React from 'react';
 import GlobalStyle from './components/GlobalStyle';
 import { Nav } from './components/Nav';
-
-import ServicesSection from './components/ServicesSection';
 import AboutUs from './pages/AboutUs'
 import { ContactUs } from './pages/ContactUs';
 import Ourwork from './pages/Ourwork';

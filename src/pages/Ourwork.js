@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 import athlete from '../img/athlete-small.png'
 import boxing from '../img/1.jpeg'
 import jumping from '../img/2.jpeg'
+import img6 from '../img/img6.jpeg'
 import {motion} from 'framer-motion'
 import {sliderContainer, slider,pageAnimation,fade,photoAnim, lineAnim} from '../Animation'
 
@@ -20,26 +20,31 @@ const Ourwork = () => {
     </motion.div>
 
       <Movie>
-        <motion.h2>Warrior Training</motion.h2>
+        <motion.h2>Warrior</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Hide>
-        <img src={athlete} alt="boxing" />
+        <img className='ath' src={athlete} alt="boxing" />
         </Hide>
+      </Movie>
+
+      <Movie>
+        <motion.h2>Animal Flow</motion.h2>
+        <motion.div variants={lineAnim} className="line" ></motion.div>
+        <motion.img className='box' src={img6} alt="athlete"/>       
       </Movie>
 
       <Movie>
         <motion.h2 variants={fade}>Calesthenics</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>        
-          <motion.img variant={photoAnim}src={jumping} alt="jumping" />
+          <motion.img className='jump' variant={photoAnim}src={jumping} alt="jumping" />
       </Movie>
 
       <Movie>
-        <motion.h2>Marial-Arts Traning</motion.h2>
+        <motion.h2>Marial-Arts</motion.h2>
         <motion.div variants={lineAnim} className="line" ></motion.div>
-          
-        <motion.img src={boxing} alt="athlete"/>
-        
+        <motion.img className='box' src={boxing} alt="athlete"/>       
       </Movie>
+
 
     </Work>
 
@@ -65,6 +70,11 @@ const Movie = styled.div`
       width: 100%;
       height: 100vh;
       object-fit: cover;
+      @media (max-width:1250px){
+        width:370px;
+        height: 220px;
+        object-fit: cover;
+      }
     }
     h2{
       color: #ff1b1b;

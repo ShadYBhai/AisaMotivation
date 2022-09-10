@@ -1,9 +1,8 @@
 import React from 'react';
 import image1 from '../img/image1.jpeg'
-import styled from 'styled-components'
 import {About,Description,Image,Hide} from "../styles"
 import { motion } from 'framer-motion'
-import { titleAnim,fade, photoAnim } from '../Animation';
+import {fade, photoAnim } from '../Animation';
 import Wave from './Wave';
 import {Link} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom';

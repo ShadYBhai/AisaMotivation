@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { About } from '../styles'
-import { useState } from 'react'
 import Toggle from './Toggle'
 
 export const FaqSection = () => {

@@ -35,6 +35,10 @@ export const Image = styled.div`
       width: 100%;
       height: 120vh;
       object-fit: cover;
+      @media (max-width:1250px){
+        width:260px;
+        height:400px
+      }
     }
 `
 export const Hide = styled.div `
