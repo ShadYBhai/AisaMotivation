@@ -48,6 +48,9 @@ const StyledNav = styled.nav`
         font-size : 2.5rem;
         font-family: 'Moul', cursive;
         font-weight: 400;
+        @media (max-width:1250px){
+            font-size : 1.8rem
+        }
     }
     span{
         color:red
