@@ -192,6 +192,7 @@ const Social = styled(motion.div)`
     }
     a{
       font-size: 20px;
+      text-decoration: none;
     }
   }
 `

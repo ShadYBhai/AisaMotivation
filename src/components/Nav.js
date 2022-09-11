@@ -7,7 +7,7 @@ export const Nav = () => {
 
         <StyledNav>
             <h1>
-                <Link id='logo' to='/'>Aisa<span>Motivation</span></Link>
+                <Link id='logo' to='/'>Aisa<span> Motivation</span></Link>
             </h1>
             <ul>
 
