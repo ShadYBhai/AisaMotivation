@@ -44,7 +44,7 @@ export const ContactUs = () => {
       <form 
       netlify
       netlify-honeypot
-      meathod="POST"
+      method="POST"
       name="contact"
       data-netlify="true"
       onSubmit='submit'
