@@ -5,10 +5,6 @@ import { pageAnimation, titleAnim } from '../Animation'
 
 export const ContactUs = () => {
 
-  const handelSubmit = (e) =>{
-      e.preventDefault()
-  }
-
   return (
     <ContactStyle
     variants={pageAnimation} 
