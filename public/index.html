@@ -31,6 +31,37 @@
     <title>Aisa Motivation</title>
   </head>
   <body>
+    <form 
+    netlify
+    netlify-honeypot="bot-field"
+    method="POST"
+    hidden
+    name="contact"
+    data-netlify="true"
+    >
+    <input type="hidden" name='form-name' value='contact' />
+    <motion.h2> <span>Write Us!</span></motion.h2>
+    <ul>Full Name</ul>
+    <input
+      name='fullName'
+      placeholder='Name'
+    />
+    <ul>Your Email</ul>
+    <input
+      name='email'
+      placeholder='Email'
+    />
+    <ul>Contact Number</ul>
+    <input
+      name='contactNumber'
+      placeholder='Phone Number'
+    />
+    <ul>Any Queries?</ul>
+    <textarea className='.queries' rows = "5" cols = "60" name = "description" placeholder='Enter details here...'>
+       </textarea>
+    </form>
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

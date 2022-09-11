@@ -5,6 +5,10 @@ import { pageAnimation, titleAnim } from '../Animation'
 
 export const ContactUs = () => {
 
+  const handelSubmit =()=>{
+    e.preventDefault()
+  }
+
   return (
     <ContactStyle
     variants={pageAnimation} 
@@ -44,10 +48,11 @@ export const ContactUs = () => {
       <form 
       netlify
       netlify-honeypot
-      meathod="POST"
+      method="POST"
       name="contact"
       data-netlify="true"
       onSubmit='submit'
+      action='/contact'
       >
       <input type="hidden" name='form-name' value='contact' />
       <motion.h2> <span>Write Us!</span></motion.h2>
@@ -67,7 +72,7 @@ export const ContactUs = () => {
         placeholder='Phone Number'
       />
       <ul>Any Queries?</ul>
-      <textarea className='.queries' rows = "5" cols = "60" name = "description" placeholder='Enter details here...'>
+      <textarea className='.queries' rows = "5" cols = "60" name="description" placeholder='Enter details here...'>
          </textarea>
          <button className='btn' type="submit" onClick={handelSubmit}>Submit</button>
       </form>
