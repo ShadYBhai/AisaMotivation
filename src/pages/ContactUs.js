@@ -45,13 +45,13 @@ export const ContactUs = () => {
       </Title>
       <Form variants={titleAnim}>
       <form 
-      meathod="post"
-      name="contact v1"
+      meathod="POST"
+      name="contact"
       data-netlify="true"
       onSubmit='submit'
       >
       <motion.h2> <span>Write Us!</span></motion.h2>
-      <input type="hidden" name='form-name' value='contact v1' />
+      <input type="hidden" name='form-name' value='contact' />
       
       <ul>Full Name</ul>
       <input
