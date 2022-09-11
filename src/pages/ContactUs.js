@@ -44,15 +44,17 @@ export const ContactUs = () => {
       </Contact>
       </Title>
       <Form variants={titleAnim}>
+      
       <form 
+      netlify
+      netlify-honeypot
       meathod="POST"
       name="contact"
       data-netlify="true"
       onSubmit='submit'
       >
-      <motion.h2> <span>Write Us!</span></motion.h2>
       <input type="hidden" name='form-name' value='contact' />
-      
+      <motion.h2> <span>Write Us!</span></motion.h2>
       <ul>Full Name</ul>
       <input
         name='fullName'
