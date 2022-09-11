@@ -69,7 +69,7 @@ export const ContactUs = () => {
       <ul>Any Queries?</ul>
       <textarea className='.queries' rows = "5" cols = "60" name = "description" placeholder='Enter details here...'>
          </textarea>
-         <button className='btn' type="submit" onClick={handelSubmit}>Submit</button>
+         <button className='btn' type="submit">Submit</button>
       </form>
       </Form>
     </ContactStyle>
