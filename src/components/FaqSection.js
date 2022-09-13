@@ -37,7 +37,9 @@ export const FaqSection = () => {
 
 const Faq = styled(About)`
 
-    margin-top: 3rem;
+    &:hover{
+        cursor: pointer;
+    }
 
     display : block;
     span{
