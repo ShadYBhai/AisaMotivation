@@ -36,6 +36,9 @@ export const FaqSection = () => {
 }
 
 const Faq = styled(About)`
+
+    margin-top: 3rem;
+
     display : block;
     span{
         display:block;
@@ -55,9 +58,5 @@ const Faq = styled(About)`
         p{
             padding:1rem 0rem;
         } 
-
-        h4{
-            
-        }
 }
 `

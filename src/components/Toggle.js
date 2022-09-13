@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {motion} from 'framer-motion'
 
 const Toggle = ({children,title}) => {
-    const [toggle,setToggle] = useState(true)
+    const [toggle,setToggle] = useState(false)
     return (
     <div onClick={()=> setToggle(!toggle)}>
     <motion.h4>{title}</motion.h4>
@@ -11,5 +11,7 @@ const Toggle = ({children,title}) => {
     </div>
   )
 }
+
+
 
 export default Toggle
