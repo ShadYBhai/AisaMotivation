@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {motion} from 'framer-motion'
 import { pageAnimation, titleAnim } from '../Animation'
 import {useNavigate} from 'react-router-dom';
+import ScrollTop from '../components/ScrollTop'
 
 export const ContactUs = () => {
   const navigate = useNavigate();
@@ -80,6 +81,7 @@ export const ContactUs = () => {
          <button className='btn' type="submit">Submit</button>
       </form>
       </Form>
+      <ScrollTop/>
     </ContactStyle>
   )
 }
