@@ -200,13 +200,17 @@ const Hide = styled.div`
   overflow:hidden;
 `
 const ContactStyle =  styled.div`
+    
     display : flex;
     flex-wrap:wrap;
-    padding: 5rem 2rem;
+    align-items: center;
+    padding: 5rem 0rem;
+    margin-left: 1.5rem;
     color: #353535;
     min-height:90vh;
     @media(max-width:1250px){
       align-items: center;
+      overflow-x: hidden;
       font-size: 1rem;
     }
 `

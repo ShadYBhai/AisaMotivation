@@ -6,6 +6,7 @@ import jumping from '../img/2.jpeg'
 import img6 from '../img/img6.jpeg'
 import {motion} from 'framer-motion'
 import {sliderContainer, slider,pageAnimation,fade,photoAnim, lineAnim} from '../Animation'
+import ScrollTop from '../components/ScrollTop'
 
 const Ourwork = () => {
   return (
@@ -45,6 +46,7 @@ const Ourwork = () => {
         <motion.img className='box' src={boxing} alt="athlete"/>       
       </Movie>
 
+      <ScrollTop/>
 
     </Work>
 
