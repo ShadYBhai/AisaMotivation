@@ -8,19 +8,21 @@ export const FaqSection = () => {
     return (
         <Faq>
         <h2>Any Questions? <span>FAQ</span></h2>
-        <Toggle className='question' title={'How Do We Provide Training'}>
+        <Point>
+        <Toggle className='question' title={'How Do We Provide Training?'}>
                 <div className="answer">
                 <p>We are Available Online and Physically</p>
                 </div>
         </Toggle>
-            
-            <Toggle title='Timings'>
+        </Point>
+        
+        <Point><Toggle title='Timings'>
                 <div className="answer">
                 <p>Anytime! We have a time for you.</p>
                 </div>
-            </Toggle>
-
-            <Toggle title='What Trainings do we offer?'>
+            </Toggle></Point>
+            
+            <Point><Toggle title='What Trainings do we offer?'>
            
                 <div className="answer">
                 <p>Warrior Training</p>
@@ -30,24 +32,24 @@ export const FaqSection = () => {
                 <p>Movement Flow</p>
                 </div>
 
-            </Toggle>
+            </Toggle></Point>
+            
         </Faq>
     )
 }
 
 const Faq = styled(About)`
 
-    &:hover{
-        cursor: pointer;
-    }
-
     display : block;
     span{
         display:block;
     }
     h2{
+
         padding-bottom : 2rem;
-        font-weight : lighter
+        font-weight : lighter;
+        
+        
     }
     .faq-line{
         background : #cccccc;
@@ -56,9 +58,15 @@ const Faq = styled(About)`
         width:100%;
     }
     .question{
+     
         padding:3rem 0rem;  
         p{
             padding:1rem 0rem;
         } 
 }
+`
+const Point = styled.div`
+    &:hover{
+        cursor: pointer;
+    }
 `
