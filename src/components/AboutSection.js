@@ -40,7 +40,7 @@ const AboutSection = () =>{
                     </Hide>
                 </motion.div>
                 <motion.p variants={fade}>Contact Us for any fitness journey that you want to take. We are professional with amazing skills to help you achive it.
-                <br/>We are available both <span>Online</span> and <span>Physcial.</span>
+                <br/>We are available both <span>Online</span> and <span>Physical.</span>
                 </motion.p>
                 <motion.button onClick={navigateContact} variants={fade}>Contact Us</motion.button>
             </Description>
