@@ -35,13 +35,13 @@ const Ourwork = () => {
       </Movie>
 
       <Movie>
-        <motion.h2 variants={fade}>Calesthenics</motion.h2>
+        <motion.h2 variants={fade}>Calisthenics</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>        
           <motion.img className='jump' variant={photoAnim}src={jumping} alt="jumping" />
       </Movie>
 
       <Movie>
-        <motion.h2>Marial-Arts</motion.h2>
+        <motion.h2>Martial-Arts</motion.h2>
         <motion.div variants={lineAnim} className="line" ></motion.div>
         <motion.img className='box' src={boxing} alt="athlete"/>       
       </Movie>
