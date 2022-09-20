@@ -21,7 +21,7 @@ const ServicesSection = () => {
                     <Card>
                         <div className="icon">
                         <img alt='i' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADUklEQVR4nO2bP0wTURzHv6/UND2aFAdDoljWJgZiiEAFdcO5i5goJB3YmIyDTAU2HBwZZBGDEwyWiQguKBikCSaSEEhcLMVoqFJC/1ikfQ4t2KNX2mvvfg/T95n63u+9333v2/u9e7leAYlEUsswvRMU79AygK5ccykRGLutZ/7I+LhjPRR9Gwwn2iPxtAUALtVb0zea7MEWV0PPyOBgjFKPVc/gHF15n2/pnbweii7MbR105vftxo/q5rYOPAAWANyk1GPRO6FaguFER7HY6nayaMwsKrkCqiIST1tm+5vRfsWu6l8NJ+B9FSL/QkgP+Hl6dLnzqr3g5AGgo0lBR5OC9enR95SaSA1gQOb1w+ai8UCfCxyME0qiNaCld7jkCt3a679DoeUY8ppjwLczwjtkQnKQG8AZnyoeZWfEzMHwu8Dex5fLjPOTezMDlpwe38ml73TU+/djcYCzJ6qJjD91OpRhPbmMoJKdoGqRSrS1AS7XSTvq3iyY07DprkRb6VyhEJS1NVU8ERjTdU7kJXDeqL4E/L0qx1OLz7nNZvvXTqUw6fMVTGuf6UOaZwAAdawOwXuF5Z9afITTueDzqL/hU1ekXgxfA6LRaFZoDpvNBrdSWAJ8fBuXH18HOPD92SfNMVq5jMZwAxobGwv69jTGxVZ/4Mv9N7pzGU3NrwHSANECRCMNMCHnoarFkCoyjjqXJmYY8E7V4qfa4nJpYrgBPH00gOyzvRiA+YzVMnAechXD8H3Axe6BrwDu5vetKF7DchmNXARFCxCNNEC0ANFIA0QLEE3NG0Dy05jHrVQ2ca30kGohMUDJe2iqhwSBATVfAtIAkQfnnHdzxg39oUMv5O8H5JOcffoBABTvkDANsgRECxANSQmsPNDeB7QGyoubCYkBrhL7gFJxM6n5EpAGiBYgGmmAaAGiITHg6Nfvwr6fybLjZkJiwP58SKMvXHbcTEj2AZEX2ZednD3Z+/3+QgiRyc2y42ZCYgD/k8HuxAZ2JzYqipsJ1SKo8XYo29ERNw0SAxjXeAOUZ6bKjZsJSQk4klZ/zH4Ezng/kD1hR/LCcLlxMyEx4BpmDpHEEADNJx+l4mYiN0KiBYimEgOWjj8wgPTvLUU4b3okEsl/xF93TShU6wck3gAAAABJRU5ErkJggg=="/>
-                            <h3>Calesthenics</h3>
+                            <h3>Calisthenics</h3>
                         </div>
                        
                     </Card>
